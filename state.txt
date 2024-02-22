@@ -1,0 +1,10 @@
+ const userAccData = useSelector(state=>state['userAccountData'])
+   console.log(userAccData) 
+
+
+ dispatch(
+            userAccountDataActions.setData({
+               field: "walletAmount",
+               data:  user.walletAmount,
+            })
+          );
